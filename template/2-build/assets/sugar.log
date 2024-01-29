@@ -1,0 +1,2 @@
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"sairam","pid":60309,"time":"2024-01-29T05:33:44.992446758Z","target":"sugar","line":123,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"Assets directory is missing or empty.","level":30,"hostname":"sairam","pid":60309,"time":"2024-01-29T05:33:44.993264558Z","target":"sugar_cli::validate::process","line":33,"file":"src/validate/process.rs"}

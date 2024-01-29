@@ -693,7 +693,7 @@ NFTs can have a lot of utilities and a simple collection that you've just deploy
 - [Top 10 Solana NFT Collections: List of the Most Ambitious Projects, Ranking, Trading Volume](https://mpost.io/top-10-solana-nft-collections-list-of-the-most-ambitious-projects-ranking-trading-volume/)
 - [DeGods: The Recent Solana NFT Project Ascending in Rankings](https://learn.bybit.com/nft/what-are-degods-nfts/)
 
-### That's it! You're done! Glad you reached this point now you're ready to conquer the world of Solana NFTs!
+### That's it! You're done!   Glad you reached this point now you're ready to conquer the world of Solana NFTs!
 
 ### Frequently Asked Questions (FAQs)
 ---

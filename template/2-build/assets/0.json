@@ -1,0 +1,38 @@
+{
+  "name": "DirtyDog #0",
+  "symbol": "DD",
+  "description": "NFT-Sairam-Solana",
+  "seller_fee_basis_points": 100,
+  "image": "0.png",
+  "external_url": "sairammohandass.com",
+  "edition": 0,
+  "attributes": [
+    {
+      "trait_type": "Head",
+      "value": "dirty dog3"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "mouth2"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "eyes1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+        "share": 100
+      }
+    ]
+  }
+}

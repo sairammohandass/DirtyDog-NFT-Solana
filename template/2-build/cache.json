@@ -1,0 +1,97 @@
+{
+  "program": {
+    "candyMachine": "CbDHjD8FzVFLWCNL6SYuec9DQhNrzzERZT3UJpoQu9z4",
+    "candyMachineCreator": "9QLDzHTme6PksvS2F2Ge69WWajmV78ynmBv35wa2Bh1N",
+    "collectionMint": "DLh3uKQU3fRnNNBQJ7GqZqe2DEhzqpQnFr5Lgkr1r7ed"
+  },
+  "items": {
+    "-1": {
+      "name": "DirtyDog #2",
+      "image_hash": "645142e1f20eb1c48da7ff34650db45abc577936bb345f2ba149905d15020de7",
+      "image_link": "https://arweave.net/lqU30cYpyGptPzLEoWDrWeWs37Wx9xEM8w0A3RcN4xs?ext=png",
+      "metadata_hash": "eeea48ac100a0a541e62cdddb214b07d367e3d227f62ba959f085a577f66a5d1",
+      "metadata_link": "https://arweave.net/XCN13JxF9aDME9-nh904lwehHrKtAByLPLYk_xz0Ha4",
+      "onChain": true
+    },
+    "0": {
+      "name": "DirtyDog #0",
+      "image_hash": "f270710b90c4f22bb00d0684adc01bb1ff3efb4edb4c3ac32eed9e273aecfbad",
+      "image_link": "https://arweave.net/vfzhFPeyK_j_406kO1NjHAwTI27TPbC_E0v5Nv4tLyY?ext=png",
+      "metadata_hash": "a9bd3278f7dbacf9d1fb0cf260dd69e6ff055c1d14552ce7497a404f5ea51350",
+      "metadata_link": "https://arweave.net/TYM72vmMYA-4TwTBeWV4jjK2_X0ZQNsw50_5OmubDqk",
+      "onChain": true
+    },
+    "1": {
+      "name": "DirtyDog #1",
+      "image_hash": "f6a510e5b7f1e7288f0451c69035bc7edc928d6ec13459d641104f026f537496",
+      "image_link": "https://arweave.net/EoFL21ZiEfh1zabkt67gxw9AsLy_yEtjjwzYJa7iN-c?ext=png",
+      "metadata_hash": "8000eae85ad5e75713f0f94e0536d77fb8a1a8237442d53bd211098d792b1715",
+      "metadata_link": "https://arweave.net/S2eEDOuYl8Dw6268SQTV-cbzVU88ovGOig9-4kV4RJo",
+      "onChain": true
+    },
+    "2": {
+      "name": "DirtyDog #2",
+      "image_hash": "645142e1f20eb1c48da7ff34650db45abc577936bb345f2ba149905d15020de7",
+      "image_link": "https://arweave.net/c_19-zfJ0isWn1Ee4DANJa2jXTLYR1h2BbbUeb3Ia9Y?ext=png",
+      "metadata_hash": "eeea48ac100a0a541e62cdddb214b07d367e3d227f62ba959f085a577f66a5d1",
+      "metadata_link": "https://arweave.net/9PumQZKWTf570JSlebXuBuZuIIZJTLL9-UiJ5cuTwkc",
+      "onChain": true
+    },
+    "3": {
+      "name": "DirtyDog #3",
+      "image_hash": "88e60581ef52d4cb1ddf258b616c9f0691748a66435be0c97cae7d364881faaf",
+      "image_link": "https://arweave.net/IxUyDmQ2nX243_GaHydrtKf_4NbK8qrrDi1NXNr8UrE?ext=png",
+      "metadata_hash": "cf1eed969d87797cfabc7587297b394d25348b9e28d3fb074e50c93dae35e7f6",
+      "metadata_link": "https://arweave.net/tYdusRMTI8W2I54SDT713WCBGqalQGMMnVuT467qBvk",
+      "onChain": true
+    },
+    "4": {
+      "name": "DirtyDog #4",
+      "image_hash": "e74610494691abeeff3f32532e2fe09fa3526a088819f412107183e19d007ee5",
+      "image_link": "https://arweave.net/YSnGOsH1SWAfUqGw--1Tba_4XKb5JV69dzWxUbfUfBw?ext=png",
+      "metadata_hash": "097f204e46d29dcb26d149296a6bc3ce139f6e1e9fc9b76593d66dbd7e6f67e8",
+      "metadata_link": "https://arweave.net/uNSxSe7R3OALkSdZiie8AaEM0KfCheJitpYpHbc8azQ",
+      "onChain": true
+    },
+    "5": {
+      "name": "DirtyDog #5",
+      "image_hash": "3872482ca0021b34050c02c7765ac383391bf79774564e165e32d8260759044b",
+      "image_link": "https://arweave.net/8qoA-JyhQKYkgaCwFk4QGGsMAWP6pRbyKziZtv7e9n4?ext=png",
+      "metadata_hash": "a94a2ee67220721a38c502af05a1cd1f3b66068eb3abd3f62c65625156bbfcbc",
+      "metadata_link": "https://arweave.net/kDgx-EjIz3UwFQwdzjFz_xCymFbA-ikpv30wgDZGNZ4",
+      "onChain": true
+    },
+    "6": {
+      "name": "DirtyDog #6",
+      "image_hash": "ac52aec09984281aa82e8e09cddeeea0a42bf600588646bcddcf660602b9d53e",
+      "image_link": "https://arweave.net/iexTFJgAbs5vw72-TFcAS1rlCR9WedRUgzDTxfLwV6E?ext=png",
+      "metadata_hash": "ddffff36330447d96f9ac5d0d1c11354bf58936cd6187714275a2b5cb80a585a",
+      "metadata_link": "https://arweave.net/CMtHrFgq4KCsKY00Pyp_UtSCUQh4qUsh2mcsjKrVUqQ",
+      "onChain": true
+    },
+    "7": {
+      "name": "DirtyDog #7",
+      "image_hash": "144b99db5eb4af19bd5094f7831e7197dd6ce33ce376ab7c046752b1cd75280d",
+      "image_link": "https://arweave.net/p1YWXFGPEz7tL4PeDgzuOV4Rr-zbWYdw_T00TI2wS1Q?ext=png",
+      "metadata_hash": "34184012832660b963004b973a0c4def0050cf14a1216c925ccabfd2f9c7f50a",
+      "metadata_link": "https://arweave.net/rmWREh112PAZ6VpQmFiuF0HCTupwLvX6RvE0XOynonY",
+      "onChain": true
+    },
+    "8": {
+      "name": "DirtyDog #8",
+      "image_hash": "28287f9a2d6d9171aeff6ca530e1635ec9253426e5b67ae34b061f8312accd3e",
+      "image_link": "https://arweave.net/t8mb6QPcPzv2--j1GOPQeSAEypWc7k0SIUqNuUEkY9g?ext=png",
+      "metadata_hash": "fedda4ef92000e7a222de94f45520282658caca1b0868fad30e4d7e42f2665b1",
+      "metadata_link": "https://arweave.net/MNQvP1W6vsQQYzqFzNMZVrjvAOK_EE--3jMRa5W09CU",
+      "onChain": true
+    },
+    "9": {
+      "name": "DirtyDog #9",
+      "image_hash": "a1836300d505998eeaf787f6b3bfdb74af12c01249fc1874331145f76ccb18ad",
+      "image_link": "https://arweave.net/my1tNX9hFHOA5wnCPItPebsx3Faw9RVKjjspeKUuIcg?ext=png",
+      "metadata_hash": "e979fe484c27508349ea89627a45ac8fb4ee0d068d26bcd3804a070f14639616",
+      "metadata_link": "https://arweave.net/T0qTYPCI2QNFxIgRIaaQmU9hFm5q3RiWWxnyCFO-1EQ",
+      "onChain": true
+    }
+  }
+}
