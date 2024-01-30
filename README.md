@@ -238,9 +238,11 @@ Now that done with the setup, it's time to build.
 # shell
 yarn run build # yarn
 npm run build # npm
+
+
+
+
 ```
-
-
 [Output after generation](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/0c7d7a64-03ca-4c74-9a4f-492401a56ccc)
 
 
