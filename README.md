@@ -443,7 +443,7 @@ If the upload is successful, you should get a similar output below.
 # output
 [00:00:00] Upload successful ██████████████████████████████████████████████████ 28/28
 
-28/28 asset pair(s) uploaded.
+11/11 asset pair(s) uploaded.
 
 ✅ Command successful.
 ```
@@ -471,13 +471,13 @@ Take note of the **Candy Machine ID**. You'll use it for deploying the frontend.
 
 # Deploy Minting Website
 
-In this tutorial we will be using Vercel and **Metaplex's Candy Machine UI** in order to create a minting dapp for our newly deployed collection.
 
-First, go to Metaplex's [Candy Machine UI](https://github.com/metaplex-foundation/candy-machine-ui) repository and fork it.
+
+ Metaplex's [Candy Machine UI](https://github.com/metaplex-foundation/candy-machine-ui) repository and forked it.
 
 ![Candy Machine UI Repo](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/candy-machine-ui.png)
 
-After forking it go to [Vercel](https://vercel.com/) login and add new **Project** and **Continue with Github**. Choose our own fork of the **Candy Machine UI**. 
+After forking it go to [Vercel](https://vercel.com/) login and add new **Project** and **Continue with Github**. Choose our fork of the **Candy Machine UI**. 
 
 ![Vercel Add New](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/add-new.png)
 
@@ -488,18 +488,13 @@ Check our fork and open `.env.example` use it to configure our Vercel Environmen
 You can copy the contents below.
 
 ```sh
-REACT_APP_CANDY_MACHINE_ID=<our CANDY MACHINE PROGRAM ID>
+REACT_APP_CANDY_MACHINE_ID=<CANDY MACHINE PROGRAM ID>
 
 REACT_APP_SOLANA_NETWORK=devnet
-REACT_APP_SOLANA_RPC_HOST=https://solana-devnet.g.alchemy.com/v2/<our-api-key>
+REACT_APP_SOLANA_RPC_HOST=https://solana-devnet.g.alchemy.com/v2/<api-key>
 SKIP_PREFLIGHT_CHECK=true
 ```
 
-For `<our-api-key>` go and [follow these steps](https://docs.alchemy.com/docs/alchemy-quickstart-guide) to get a Solana API key.
-
-> Tip: Don't know where to find the Candy Machine Program ID? Use `sugar show` and copy Candy Machine ID.
-
-![Vercel](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/vercel.png)
 
 After configuring it's time to deploy and **view our site**!
 
@@ -511,11 +506,8 @@ A webpage should open like the one below. Connect our wallet and try minting one
 
 # Testing
 
-Now it's time to test our newly deployed collection using our Minting DApp on Vercel.
-
 First get our devnet Solana (SOL) using Solana CLI and with our Phantom wallet address.
 
-> You can only request a maximum of 2 SOL at a time.
 
 ```sh
 # shell
@@ -524,7 +516,7 @@ solana airdrop 2 **insert wallet address here**
 
 After getting our Devnet SOL, it's time to finally try our Minting Dapp by connecting our wallet and minting our first Devnet NFT!
 
-![our DApp Website](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/dapp-website.png)
+![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/c537a843-1f92-4570-a37b-a91f418fab5c)
 
 ### What else moving forward...
 
@@ -534,15 +526,5 @@ NFTs can have a lot of utilities and a simple collection that you've just deploy
 - [Top 10 Solana NFT Collections: List of the Most Ambitious Projects, Ranking, Trading Volume](https://mpost.io/top-10-solana-nft-collections-list-of-the-most-ambitious-projects-ranking-trading-volume/)
 - [DeGods: The Recent Solana NFT Project Ascending in Rankings](https://learn.bybit.com/nft/what-are-degods-nfts/)
 
-### That's it! You're done!   Glad you reached this point now you're ready to conquer the world of Solana NFTs!
-
-### Frequently Asked Questions (FAQs)
----
-
-##### What version of Node was used in the tutorial?
-
-node v14.19.0 (npm v6.14.16)
-
----
 
 ##### 
