@@ -12,14 +12,14 @@ Hey there 👋🏼
 5. [Node](https://nodejs.org/en/)(v16.15.1) and [Yarn](https://yarnpkg.com/)
 
 # What did I build..
-Solana NFT Collection. Start by generating the images and metadata with the art generation tool, HashLips. It will then be followed with the Sugar CLI tool allowing you to deploy your Candy Machine program to facilitate your NFT collection on Solana's devnet. At last, deployed the NFT minting application to production with Vercel and manually tested its functionality.
+Solana NFT Collection. Generated the images and metadata with the art generation tool, HashLips. Followed with the Sugar CLI tool to deploy the Candy Machine program to facilitate my NFT collection on Solana's devnet. At last, deployed the NFT minting application to production with Vercel and manually tested its functionality.
 
 Here's what the frontend DApp will look like:
-![Your DApp Website](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/dapp-website.png)
+![Your DApp Website](![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/5acaee05-5bea-4d4b-afff-ef625c6ec586)
+)
 
 When you're done, you'll be able to mint your NFTs using any Solana wallet (i.e. Phantom) on the devnet via Alchemy's Solana RPC.
 ![Example Minted NFT](![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/f14dbb4b-5b90-439e-a193-1fd966bcc74e)
-)
 
 <!-- 1. Art and Metadata generation with HashLips -->
 <!-- 2. NFT Collection Deployment with Metaplex Sugar CLI and Candy Machine -->
