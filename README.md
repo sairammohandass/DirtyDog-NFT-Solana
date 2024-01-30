@@ -17,7 +17,7 @@ Solana NFT Collection. Generated the images and metadata with the art generation
 Here's what the frontend DApp will look like:
 (![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/5acaee05-5bea-4d4b-afff-ef625c6ec586)
 
-When you're done, you'll be able to mint our NFTs using any Solana wallet (i.e. Phantom) on the devnet via Alchemy's Solana RPC.
+When done, I was able to mint my NFTs using any Solana wallet (i.e. Phantom) on the devnet via Alchemy's Solana RPC.
 (![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/f14dbb4b-5b90-439e-a193-1fd966bcc74e)
 
 <!-- 1. Art and Metadata generation with HashLips -->
@@ -36,10 +36,6 @@ echo "this is a cli command"
 # output
 this is a cli command
 ```
-
-# Where we'll work
-
-Using the following commands below, change into our home directory and create a new directory. This will serve as our workspace to isolate our files during this tutorial so change our current directory to our newly created folder.
 
 
 
@@ -115,7 +111,7 @@ HashLips is an art generation tool that can be used to layer images on top of ea
 ```sh
 # shell
 # current directory: /home/sairam/sairam-nft-solana
-git clone https://github.com/alchemyplatform/solana-nft-tutorial // cloning from alchemy repo.
+git clone https://github.com/alchemyplatform/sairam-nft-solana // cloning from alchemy repo.
 ```
 
 You should receive directory structure similar to below with the pre-made layer images we will be using for the art generation we will be doing with HashLips.
@@ -153,8 +149,7 @@ npm install # npm
 
 ### Usage
 
-HashLips is a very powerful art engine that allows you to create different configurations for our art generation, but for this tutorial's purposes **we will keep it as simple as possible**.
-
+HashLips is a very powerful art engine that allows us to create different configurations for our art generation.
 
 
 Copy all of the folders inside `0-assets` in the template into `layers` folder because that's where all of our layers will be placed for art generation using **HashLips**.
@@ -328,7 +323,7 @@ To set the collection mint automatically go into the `assets` folder and copy `0
 After removing `_metadata.json` and adding a collection mint our assets directory should be similar to the one below.
 
 ```
-/solana-nft-tutorial
+/sairam-nft-solana
 	** snipped **
 	/2-build
 		/assets
@@ -379,7 +374,7 @@ You must receive the same output below with a command successful event if our im
 ```sh
 # output
 [1/1] 🗂  Loading assets
-▪▪▪▪▪ Validating 28 metadata file(s)...
+▪▪▪▪▪ Validating 11 metadata file(s)...
 
 Validation complete, our metadata file(s) look good.
 
@@ -397,7 +392,7 @@ solana-keygen new
 
 When prompted for a passphrase just press enter for now to skip the passphrase. If everything is done correctly you should now have a keypair JSON file in a similar path: `/home/kristian/.config/solana/id.json`.
 
-> Warning: The authority for our Candy Machine is the keypair specified in the output of the `solana config` command. For this tutorial it should be the path of our previously generated keypair with `solana-keygen new` that is `/home/kristian/.config/solana/id.json`.
+> Warning: The authority for our Candy Machine is the keypair specified in the output of the `solana config` command.
 
 After generating our keypair and making sure it's the one used by our `solana config`, run the command below to begin the interactive config creation.
 
@@ -406,27 +401,15 @@ After generating our keypair and making sure it's the one used by our `solana co
 sugar create-config
 ```
 
-> Note: Feel free to play around with the interactive config creation. Metaplex does a good job of handling errors, so rest assured that you will be guided by error messages along the way.
-
-You will then be prompted for the following:
-
-1. `Price of each NFT` - This is the mint price fo each NFT in our collection
-2. `Number of NFTs in the collection` - This is the number of NFTs in our collection. **For this tutorial it's `27` in total**
-3. `Symbol` to be used in the collection - Just like `BAYC` for Bored Ape Yacht Club. We use `PS` for this tutorial.
+1. `Price of each NFT` - This is the mint price for each NFT in our collection
+2. `Number of NFTs in the collection` - This is the number of NFTs in our collection. 
+3. `Symbol` to be used in the collection - Just like `BAYC` for Bored Ape Yacht Club.
 4. `Seller fee basis points` (1000 = 10%) - the amount of royalty to be earned from secondary market sales
-5. `Go live date` - date from when the collection becomes available for minting. You can use the keyword `now` to signify that it's ready for minting upon launch.
+5. `Go live date` - date from when the collection becomes available for minting. We can use the keyword `now` to signify that it's ready for minting upon launch.
 6. `Number of creator wallets` - how many wallets would receive the royalties from secondary sales
 7. `Wallet address for each creator` - addresses of the wallets that will receive the royalties
 8. `Royalty percentage for each creator` - the percentage of the total royalty for each sale each creator should get. All of the percentages from each wallet combined should total to `100`
-9. `Extra Features` - additional features to be toggled for our Candy Machine. This will be discussed further in the section below
-
-In order to keep this simple for this tutorial we won't specify the other prompts and we recommend you follow the same responses below (colored in green).
-
-![create-config Sample Configuration](https://raw.githubusercontent.com/alchemyplatform/solana-nft-tutorial/master/.github/images/create-config.png)
-
-##### Extra Features
-
-The interactive prompt will prompt you with some extra features that you can use to cover different use cases. Covering each is beyond the coverage of this tutorial but you can know more by [reading the configuration settings from Metaplex](https://docs.metaplex.com/developer-tools/sugar/reference/configuration).
+9. `Extra Features` - additional features to be toggled for our Candy Machine. 
 
 ##### Uploading to Storage
 
@@ -437,11 +420,11 @@ After going through the interactive config creation, it's time to upload our col
 sugar upload
 ```
 
-If the upload is successful, you should get a similar output below.
+Upload is successful with output: 
 
 ```sh
 # output
-[00:00:00] Upload successful ██████████████████████████████████████████████████ 28/28
+[00:00:00] Upload successful ██████████████████████████████████████████████████11/11
 
 11/11 asset pair(s) uploaded.
 
@@ -465,9 +448,7 @@ sugar verify
 sugar show # check details of deployed Candy Machine
 ```
 
-Take note of the **Candy Machine ID**. You'll use it for deploying the frontend.
-
-**Congratulations! You're done!** with deploying our Candy Machine! It's time to use Metaplax's Candy Machine template to mint our NFTs!
+**We're done!** with deploying our Candy Machine! It's time to use Metaplax's Candy Machine template to mint our NFTs!
 
 # Deploy Minting Website
 
