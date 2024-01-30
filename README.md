@@ -16,7 +16,6 @@ Solana NFT Collection. Generated the images and metadata with the art generation
 
 Here's what the frontend DApp will look like:
 ![Your DApp Website](![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/5acaee05-5bea-4d4b-afff-ef625c6ec586)
-)
 
 When you're done, you'll be able to mint your NFTs using any Solana wallet (i.e. Phantom) on the devnet via Alchemy's Solana RPC.
 ![Example Minted NFT](![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/f14dbb4b-5b90-439e-a193-1fd966bcc74e)
