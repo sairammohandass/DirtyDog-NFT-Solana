@@ -1,6 +1,7 @@
 # DirtyDog Solana NFT 
 
-![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/19e83f1f-3a60-4863-820a-b2766228ad76)
+![image](https://github.com/sairammohandass/DirtyDog-NFT-Solana/assets/98868282/7836a0b1-a8eb-4b01-b12c-fb66982d6009)
+
 
 Hey there 👋🏼
 
