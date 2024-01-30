@@ -74,8 +74,7 @@ solana-cli 1.10.24 (src:15456493; feat:2982808786)
 # shell
 solana config get
 ```
-
-You should receive an output similar to the one below. The key things to look out for are the `RPC URL` and our `Keypair Path`. These 2 are the ones you will most likely change in order to do some testing.
+ The key things to look out for are the `RPC URL` and our `Keypair Path`. These 2 are the ones you will most likely change in order to do some testing.
 ```sh
 # output
 Config File: /home/sairam/.config/solana/cli/config.yml
@@ -115,7 +114,7 @@ HashLips is an art generation tool that can be used to layer images on top of ea
 git clone https://github.com/alchemyplatform/sairam-nft-solana // cloning from alchemy repo.
 ```
 
-You should receive directory structure similar to below with the pre-made layer images we will be using for the art generation we will be doing with HashLips.
+
 ```
 /sairam-nft-solana
 	README.md
@@ -439,7 +438,7 @@ Upon the successful completion of the upload it's time to launch our Candy Machi
 sugar launch
 ```
 
-If you got a **Command Succesful** response, you're almost done!
+we're almost done!
 
 Do a quick `sugar verify` followed by a `sugar show` to check the status of our launched Candy Machine and check for a **Command Successful** response.
 
@@ -467,7 +466,6 @@ After forking it go to [Vercel](https://vercel.com/) login and add new **Project
 
 Check our fork and open `.env.example` use it to configure our Vercel Environment Variables.
 
-You can copy the contents below.
 
 ```sh
 REACT_APP_CANDY_MACHINE_ID=<CANDY MACHINE PROGRAM ID>
@@ -502,7 +500,7 @@ After getting our Devnet SOL, it's time to finally try our Minting Dapp by conne
 
 ### What else moving forward...
 
-NFTs can have a lot of utilities and a simple collection that you've just deployed is just the start. If you want to know more and find more ways to use Solana NFTs as well as to add utilities to them learn from the following resources below:
+NFTs can have a lot of utilities. If you want to know more and find more ways to use Solana NFTs as well as to add utilities to them learn from the following resources below:
 
 - [Generative Art Tips and Tricks](https://www.youtube.com/watch?v=HGx052UU8A0&t=19s)
 - [Top 10 Solana NFT Collections: List of the Most Ambitious Projects, Ranking, Trading Volume](https://mpost.io/top-10-solana-nft-collections-list-of-the-most-ambitious-projects-ranking-trading-volume/)
